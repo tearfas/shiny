@@ -1812,18 +1812,6 @@ cat_line <- function(...) {
   cat(paste(..., "\n", collapse = ""))
 }
 
-setAlpha <- function(colorStr, alpha = 1) {
-  colors <- t(col2rgb(colorStr, alpha = FALSE))
-  result <- sprintf("#%02X%02X%02X%02X",
-    colors[,"red"],
-    colors[,"green"],
-    colors[,"blue"],
-    round(pmin(1, pmax(0, alpha)) * 255)
-  )
-  result[is.na(colorStr)] <- NA_character_
-  result
-}
-
 # Test cases:
 # Leading/trailing spaces
 # Spaces around commas
