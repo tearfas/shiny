@@ -180,6 +180,7 @@ reference:
       - parseQueryString
       - getCurrentOutputInfo
       - plotPNG
+      - autoThemeOptions
       - sizeGrowthRatio
       - exportTestValues
       - setSerializer
