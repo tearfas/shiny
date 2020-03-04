@@ -93,7 +93,8 @@ Suggests:
     shinytest,
     yaml,
     future,
-    dygraphs
+    dygraphs,
+    scales
 Remotes:
     rstudio/htmltools
 URL: http://shiny.rstudio.com
