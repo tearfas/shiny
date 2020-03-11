@@ -79,7 +79,8 @@ Imports:
     crayon,
     rlang (>= 0.4.0),
     fastmap (>= 1.0.0),
-    withr
+    withr,
+    thematic
 Suggests:
     datasets,
     Cairo (>= 1.5-5),
@@ -93,10 +94,10 @@ Suggests:
     shinytest,
     yaml,
     future,
-    dygraphs,
-    scales
+    dygraphs
 Remotes:
-    rstudio/htmltools
+    rstudio/htmltools,
+    rstudio/thematic
 URL: http://shiny.rstudio.com
 BugReports: https://github.com/rstudio/shiny/issues
 Collate:
